@@ -6,6 +6,7 @@ public class Starter {
 	EvilFingerprintReader fingerprint = new EvilFingerprintReader("Julia");
 	String response = fingerprint.callOut();
 	System.out.println("The callout said:" + response + " here!");
+	System.out.println("This has been added");
     }
 
 }
